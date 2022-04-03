@@ -1,3 +1,3 @@
 # Securities_Project
 
-In this project, I will use statistical models to predict the closing price of Apple stock.  The Linear Regression model proved to be the best with positive returns on the test data.  
+In this project, I will use statistical models to predict the closing price of Apple stock using the Moving Average as the independant variable.  The Linear Regression model proved to be the best with positive returns on the test data.  I could not prove a relationship between the Moving Average and the direction of the stock price using a logistic regression.  The Time Series model correctly predicted that the trend of the test data is positive, but still predicted the the price would be lower than it actually was.  My future work will be using Recurrent Neural Networks to predict stock prices, and these models should more precisely fit a function to the data.
